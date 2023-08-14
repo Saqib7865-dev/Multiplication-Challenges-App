@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    background-color: purple;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    width: 370px;
+    height: 210px;
+    background-color: #fff;
+    border-radius: 20px;
+    padding: 34px 34px 20px 34px;
+}
+
+.container .score{
+    text-align: right;
+    color: purple;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+
+.container h1{
+    margin-top: 30px;
+    font-family: sans-serif;
+    font-size: 22px;
+}
+
+.container input{
+    display: block;
+    width: 100%;
+    margin: 8px 0;
+}
+
+.container input[type='number']{
+    padding: 5px;
+    text-align: center;
+    outline: none;
+    border: 1px solid purple;
+    color: purple;
+    font-weight: 600;
+    font-family: cursive;
+}
+
+.container button
+{
+    width: 100%;
+    padding: 5px;
+    background-color: purple;
+    color: white;
+    font-weight: 600;
+    font-family: sans-serif;
+    cursor: pointer;
+}
